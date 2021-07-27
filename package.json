@@ -1,0 +1,44 @@
+{
+	"name": "wardrobe",
+	"version": "2021.07.27",
+	"description": "A wardrobe of assets for  Skyra",
+	"author": "Skyra Project",
+	"license": "CC BY-NC-SA 4.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write *.md package.json",
+		"prepare": "husky install .github/husky"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^12.1.4",
+		"@commitlint/config-conventional": "^12.1.4",
+		"@sapphire/prettier-config": "^1.1.6",
+		"cz-conventional-changelog": "^3.3.0",
+		"husky": "^7.0.1",
+		"pretty-quick": "^3.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skyra-project/wardrobe.git"
+	},
+	"engines": {
+		"node": ">=16",
+		"npm": ">=7"
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"resolutions": {
+		"chalk": "^4.1.1",
+		"lodash": "^4.17.21",
+		"minimist": "^1.2.5"
+	},
+	"prettier": "@sapphire/prettier-config"
+}
