@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- ![Wardrobe Logo](https://cdn.skyra.pw/gh-assets/wardrobe-logo.png) -->
+![Wardrobe Logo](https://cdn.skyra.pw/gh-assets/wardrobe-logo.png)
 
 # Wardrobe
 
