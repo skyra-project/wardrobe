@@ -7,10 +7,7 @@
 **A wardrobe of assets for Skyra**
 
 [![GitHub](https://img.shields.io/github/license/skyra-project/wardrobe)](https://github.com/skyra-project/wardrobe/blob/main/LICENSE.md)
-
-<!-- TODO: Update url -->
-
-[![Depfu](https://badges.depfu.com/badges/e367f2c68b857253ca23e1e8d73d1e14/count.svg)](https://depfu.com/github/sapphiredev/rk?project_id=14147)
+[![Depfu](https://badges.depfu.com/badges/52cb9153d3d8285b48304a39e34e58be/count.svg)](https://depfu.com/github/skyra-project/wardrobe?project_id=29826)
 
 [![Support Server](https://discord.com/api/guilds/254360814063058944/embed.png?style=banner2)][support server]
 
