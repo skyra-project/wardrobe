@@ -53,10 +53,10 @@ message SubscriptionListRequest {
 
 message Video {
   string title = 1;
-  string channel_name = 2;
-  string url = 3;
-  google.protobuf.Timestamp time = 4;
-  VideoType type = 5;
+  string url = 2;
+  google.protobuf.Timestamp time = 3;
+  VideoType type = 4;
+  ChannelInformation channel_info = 5;
 }
 
 message SubscriptionListResponse {
