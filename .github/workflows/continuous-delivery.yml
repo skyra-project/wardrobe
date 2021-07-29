@@ -26,6 +26,6 @@ jobs:
       - name: Build and push Protofiles Docker image
         uses: docker/build-push-action@v2.6.1
         with:
-          context: ./assets/protos
+          context: ./protos
           push: true
           tags: ghcr.io/skyra-project/grpc-protofiles:latest
