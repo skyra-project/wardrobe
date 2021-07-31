@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "Skyra.Grpc.Services";
+option csharp_namespace = "Services";
 import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
 import "shared.proto";
