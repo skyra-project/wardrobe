@@ -7,14 +7,15 @@ import "google/protobuf/timestamp.proto";
 package YoutubeSubscription;
 
 service YoutubeSubscription {
-  rpc Subscribe(SubscriptionRequest) returns (YoutubeResponse);
-  rpc Unsubscribe(SubscriptionRequest) returns (YoutubeResponse);
-  rpc SetDiscordUploadChannel(DiscordChannelRequest) returns (YoutubeResponse);
-  rpc SetDiscordLiveChannel(DiscordChannelRequest) returns (YoutubeResponse);
-  rpc SetDiscordUploadMessage(DiscordMessageRequest) returns (YoutubeResponse);
-  rpc SetDiscordLiveMessage(DiscordMessageRequest) returns (YoutubeResponse);
+  rpc Subscribe(SubscriptionRequest) returns (YoutubeServiceResponse);
+  rpc Unsubscribe(SubscriptionRequest) returns (YoutubeServiceResponse);
+  rpc SetDiscordUploadChannel(DiscordChannelRequest) returns (YoutubeServiceResponse);
+  rpc SetDiscordLiveChannel(DiscordChannelRequest) returns (YoutubeServiceResponse);
+  rpc SetDiscordUploadMessage(DiscordMessageRequest) returns (YoutubeServiceResponse);
+  rpc SetDiscordLiveMessage(DiscordMessageRequest) returns (YoutubeServiceResponse);
   rpc NotificationStream(google.protobuf.Empty) returns (stream UploadNotification);
   rpc GetSubscriptions(SubscriptionListRequest) returns (SubscriptionListResponse);
+  rpc RemoveAllSubscriptions(RemoveAllRequest) returns (YoutubeServiceResponse);
 }
 
 message SubscriptionRequest {
@@ -22,8 +23,8 @@ message SubscriptionRequest {
   string channel_url = 2;
 }
 
-message YoutubeResponse {
-  YoutubeStatus status = 1;
+message YoutubeServiceResponse {
+  YoutubeServiceStatus status = 1;
 }
 
 message DiscordChannelRequest {
@@ -33,6 +34,7 @@ message DiscordChannelRequest {
 
 message DiscordMessageRequest {
   string guild_id = 1;
+  string content = 2;
 }
 
 message UploadNotification {
@@ -54,7 +56,6 @@ message Video {
   string title = 1;
   string url = 2;
   google.protobuf.Timestamp time = 3;
-  VideoType type = 4;
   ChannelInformation channel_info = 5;
 }
 
@@ -64,20 +65,16 @@ message SubscriptionListResponse {
 
 message ChannelInformation {
   string channel_name = 1;
-  string channel_avatar_url = 2;
-  string channel_url = 3;
+  string channel_url = 2;
 }
 
-enum YoutubeStatus {
+message RemoveAllRequest {
+  string guild_id = 1;
+}
+
+enum YoutubeServiceStatus {
   Success = 0;
   Failure = 1;
-  NoLiveChannel = 2;
-  NoLiveMessage = 3;
-  NoUploadChannel = 4;
-  NoUploadMessage = 5;
-}
-
-enum VideoType {
-  Upload = 0;
-  Live = 1;
+  NotConfigured = 2;
+  IncorrectChannelInfo = 3;
 }
