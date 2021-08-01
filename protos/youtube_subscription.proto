@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 option csharp_namespace = "Services";
+import "google/protobuf/Empty.proto";
 import "google/protobuf/timestamp.proto";
 
 package YoutubeSubscription;
