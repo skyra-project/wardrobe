@@ -5,6 +5,13 @@ import "google/protobuf/timestamp.proto";
 
 package Cdn;
 
+service Cdn {
+  rpc Upload(UploadRequest) returns (CdnResponse);
+  rpc Edit(EditRequest) returns (CdnResponse);
+  rpc Delete(DeleteRequest) returns (CdnResponse);
+  rpc Get(GetRequest) returns (CdnFileResponse);
+} 
+
 message UploadRequest {
   string name = 1;
   string content_type = 2;
@@ -25,13 +32,16 @@ message GetRequest {
 }
 
 message CdnResponse {
-  
   CdnResult result = 1;
-  
-  enum CdnResult {
-    Ok = 0;
-    Duplicate = 1;
-    Error = 2;
-  }
-  
+}
+
+message CdnFileResponse {
+  CdnResult result = 1;
+  bytes content = 2;
+}
+
+enum CdnResult {
+  Ok = 0;
+  Duplicate = 1;
+  Error = 2;
 }
