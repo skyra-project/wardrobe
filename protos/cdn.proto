@@ -5,13 +5,13 @@ option csharp_namespace = "Services";
 package Cdn;
 
 service Cdn {
-  rpc Upload(UploadRequest) returns (CdnResponse);
+  rpc Create(CreateRequest) returns (CdnResponse);
   rpc Edit(EditRequest) returns (CdnResponse);
   rpc Delete(DeleteRequest) returns (CdnResponse);
   rpc Get(GetRequest) returns (CdnFileResponse);
 } 
 
-message UploadRequest {
+message CreateRequest {
   string name = 1;
   string content_type = 2;
   bytes content = 3;
