@@ -1,0 +1,37 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Services";
+import "google/protobuf/timestamp.proto";
+
+package Cdn;
+
+message UploadRequest {
+  string name = 1;
+  string content_type = 2;
+  bytes content = 3;
+}
+
+message EditRequest {
+  string name = 1;
+  string content_type = 2;
+}
+
+message DeleteRequest {
+  string name = 1;
+}
+
+message GetRequest {
+  string name = 1;
+}
+
+message CdnResponse {
+  
+  CdnResult result = 1;
+  
+  enum CdnResult {
+    Ok = 0;
+    Duplicate = 1;
+    Error = 2;
+  }
+  
+}
