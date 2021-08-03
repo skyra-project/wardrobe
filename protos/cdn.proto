@@ -1,7 +1,6 @@
 ﻿syntax = "proto3";
 
 option csharp_namespace = "Services";
-import "google/protobuf/timestamp.proto";
 
 package Cdn;
 
