@@ -43,4 +43,5 @@ enum CdnResult {
   Ok = 0;
   Duplicate = 1;
   Error = 2;
+  DoesNotExist = 3;
 }
