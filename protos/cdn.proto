@@ -4,7 +4,7 @@ option csharp_namespace = "Services";
 
 package Cdn;
 
-service Cdn {
+service CdnService {
   rpc Create(CreateRequest) returns (CdnResponse);
   rpc Edit(EditRequest) returns (CdnResponse);
   rpc Delete(DeleteRequest) returns (CdnResponse);
