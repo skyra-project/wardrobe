@@ -20,6 +20,7 @@ message CreateRequest {
 message EditRequest {
   string name = 1;
   string content_type = 2;
+  bytes content = 3;
 }
 
 message DeleteRequest {
