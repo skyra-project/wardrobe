@@ -6,18 +6,11 @@ package Cdn;
 
 service CdnService {
   rpc Upsert(UpsertRequest) returns (CdnResponse);
-  rpc Edit(EditRequest) returns (CdnResponse);
   rpc Delete(DeleteRequest) returns (CdnResponse);
   rpc Get(GetRequest) returns (CdnFileResponse);
 } 
 
 message UpsertRequest {
-  string name = 1;
-  string content_type = 2;
-  bytes content = 3;
-}
-
-message EditRequest {
   string name = 1;
   string content_type = 2;
   bytes content = 3;
