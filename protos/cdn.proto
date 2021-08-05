@@ -5,13 +5,13 @@ option csharp_namespace = "Services";
 package Cdn;
 
 service CdnService {
-  rpc Create(CreateRequest) returns (CdnResponse);
+  rpc Upsert(UpsertRequest) returns (CdnResponse);
   rpc Edit(EditRequest) returns (CdnResponse);
   rpc Delete(DeleteRequest) returns (CdnResponse);
   rpc Get(GetRequest) returns (CdnFileResponse);
 } 
 
-message CreateRequest {
+message UpsertRequest {
   string name = 1;
   string content_type = 2;
   bytes content = 3;
@@ -42,7 +42,6 @@ message CdnFileResponse {
 
 enum CdnResult {
   Ok = 0;
-  Duplicate = 1;
-  Error = 2;
-  DoesNotExist = 3;
+  Error = 1;
+  DoesNotExist = 2;
 }
