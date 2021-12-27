@@ -23,10 +23,6 @@ message SubscriptionRequest {
   string channel_url = 2;
 }
 
-message YoutubeServiceResponse {
-  YoutubeServiceStatus status = 1;
-}
-
 message DiscordChannelRequest {
   string guild_id = 1;
   string channel_id = 2;
@@ -42,25 +38,35 @@ message UploadNotification {
   repeated GuildInformation guild_info = 2;
 }
 
-message GuildInformation {
-  string guild_id = 1;
-  string channel_id = 2;
-  string message = 3;
-}
-
 message SubscriptionListRequest {
   string guild_id = 1;
+}
+
+message RemoveAllRequest {
+  string guild_id = 1;
+}
+
+message YoutubeServiceResponse {
+  YoutubeServiceResult result = 1;
+}
+
+message SubscriptionListResponse {
+  YoutubeServiceResult result = 1;
+  repeated ChannelInformation info = 2;
+}
+
+enum YoutubeServiceResult {
+  Success = 0;
+  Failure = 1;
+  NotConfigured = 2;
+  IncorrectChannelInfo = 3;
 }
 
 message Video {
   string title = 1;
   string url = 2;
   google.protobuf.Timestamp time = 3;
-  ChannelInformation channel_info = 5;
-}
-
-message SubscriptionListResponse {
-  repeated ChannelInformation info = 1;
+  ChannelInformation channel_info = 4;
 }
 
 message ChannelInformation {
@@ -68,13 +74,8 @@ message ChannelInformation {
   string channel_url = 2;
 }
 
-message RemoveAllRequest {
+message GuildInformation {
   string guild_id = 1;
-}
-
-enum YoutubeServiceStatus {
-  Success = 0;
-  Failure = 1;
-  NotConfigured = 2;
-  IncorrectChannelInfo = 3;
+  string channel_id = 2;
+  string message = 3;
 }
