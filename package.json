@@ -10,8 +10,8 @@
 		"prepare": "husky install .github/husky"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.0.3",
-		"@commitlint/config-conventional": "^17.0.3",
+		"@commitlint/cli": "^17.1.1",
+		"@commitlint/config-conventional": "^17.1.0",
 		"@sapphire/prettier-config": "^1.4.4",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^7.0.4",
@@ -40,5 +40,5 @@
 		}
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.2.2"
+	"packageManager": "yarn@3.2.3"
 }
