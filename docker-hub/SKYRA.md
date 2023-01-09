@@ -55,33 +55,17 @@ We accept donations through Patreon, BitCoin, Ethereum, and Litecoin. You can us
 |  Ethereum   | ![EthereumImage][] | [0xcB5EDB76Bc9E389514F905D9680589004C00190c][ethereum] |
 |  Litecoin   | ![LitecoinImage][] |     [MNVT1keYGMfGp7vWmcYjCS8ntU8LNvjnqM][litecoin]     |
 
-## Contributors ✨
+## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Please make sure to read the [Contributing Guide][contributing] before making a pull request.
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/kyranet"><img src="https://avatars0.githubusercontent.com/u/24852502?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aura Román</b></sub></a><br /><a href="#a11y-kyranet" title="Accessibility">️️️️♿️</a> <a href="#audio-kyranet" title="Audio">🔊</a> <a href="https://github.com/skyra-project/wardrobe/issues?q=author%3Akyranet" title="Bug reports">🐛</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=kyranet" title="Code">💻</a> <a href="#design-kyranet" title="Design">🎨</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=kyranet" title="Documentation">📖</a> <a href="#ideas-kyranet" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-kyranet" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-kyranet" title="Maintenance">🚧</a> <a href="#platform-kyranet" title="Packaging/porting to new platform">📦</a> <a href="#projectManagement-kyranet" title="Project Management">📆</a> <a href="#question-kyranet" title="Answering Questions">💬</a> <a href="https://github.com/skyra-project/wardrobe/pulls?q=is%3Apr+reviewed-by%3Akyranet" title="Reviewed Pull Requests">👀</a> <a href="#security-kyranet" title="Security">🛡️</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=kyranet" title="Tests">⚠️</a> <a href="#translation-kyranet" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://favware.tech/"><img src="https://avatars3.githubusercontent.com/u/4019718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeroen Claassens</b></sub></a><br /><a href="#a11y-Favna" title="Accessibility">️️️️♿️</a> <a href="#audio-Favna" title="Audio">🔊</a> <a href="https://github.com/skyra-project/wardrobe/issues?q=author%3AFavna" title="Bug reports">🐛</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=Favna" title="Code">💻</a> <a href="#design-Favna" title="Design">🎨</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=Favna" title="Documentation">📖</a> <a href="#ideas-Favna" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Favna" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Favna" title="Maintenance">🚧</a> <a href="#platform-Favna" title="Packaging/porting to new platform">📦</a> <a href="#projectManagement-Favna" title="Project Management">📆</a> <a href="#question-Favna" title="Answering Questions">💬</a> <a href="https://github.com/skyra-project/wardrobe/pulls?q=is%3Apr+reviewed-by%3AFavna" title="Reviewed Pull Requests">👀</a> <a href="#security-Favna" title="Security">🛡️</a> <a href="https://github.com/skyra-project/wardrobe/commits?author=Favna" title="Tests">⚠️</a> <a href="#translation-Favna" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/apps/dependabot"><img src="https://avatars0.githubusercontent.com/in/29110?v=4?s=100" width="100px;" alt=""/><br /><sub><b>dependabot[bot]</b></sub></a><br /><a href="#maintenance-dependabot[bot]" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/apps/depfu"><img src="https://avatars3.githubusercontent.com/in/715?v=4?s=100" width="100px;" alt=""/><br /><sub><b>depfu[bot]</b></sub></a><br /><a href="#maintenance-depfu[bot]" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/apps/allcontributors"><img src="https://avatars.githubusercontent.com/in/23186?v=4?s=100" width="100px;" alt=""/><br /><sub><b>allcontributors[bot]</b></sub></a><br /><a href="https://github.com/skyra-project/wardrobe/commits?author=allcontributors[bot]" title="Documentation">📖</a></td>
-  </tr>
-</table>
+Thank you to all the people who already contributed to Sapphire!
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<a href="https://github.com/skyra-project/skyra/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=skyra-project/skyra" />
+</a>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-<!----------------- LINKS --------------->
-
-[bitcoin]: bitcoin:3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco?amount=0.01&label=Skyra%20Discord%20Bot
+[contributing]: https://github.com/skyra-project/.github/blob/main/.github/CONTRIBUTING.md[bitcoin]: bitcoin:3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco?amount=0.01&label=Skyra%20Discord%20Bot
 [bitcoinimage]: https://cdn.skyra.pw/gh-assets/bitcoin.png
 [ethereum]: ethereum:0xcB5EDB76Bc9E389514F905D9680589004C00190c?amount=0.01&label=Skyra%20Discord%20Bot
 [ethereumimage]: https://cdn.skyra.pw/gh-assets/ethereum.png
