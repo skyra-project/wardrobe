@@ -19,7 +19,7 @@
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
-		"minimist": "^1.2.7"
+		"minimist": "^1.2.8"
 	},
 	"repository": {
 		"type": "git",
