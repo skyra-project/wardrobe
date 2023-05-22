@@ -1,0 +1,39 @@
+Arial font family
+
+Microsoft supplied font. You may use this font to create, display, and print
+content as permitted by the license terms or terms of use, of the Microsoft
+product, service, or content in which this font was included. You may only (i)
+embed this font in content as permitted by the embedding restrictions included
+in this font; and (ii) temporarily download this font to a printer or other
+output device to help print content. Any other use is prohibited.
+
+The following license, based on the MIT license
+(http://en.wikipedia.org/wiki/MIT_License), applies to the OpenType Layout logic
+for Biblical Hebrew “Layout Logic” as jointly developed by Ralph Hancock and
+John Hudson.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the OpenType Layout logic for Biblical Hebrew and associated documentation files
+(the “Layout Logic Software”), to deal in the Layout Logic Software without
+restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Layout Logic Software,
+and to permit persons to whom the Layout Logic Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Layout Logic Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Arial is a trademark of The Monotype Corporation.
+
+© 2017 The Monotype Corporation. All Rights Reserved.
+
+Hebrew OpenType Layout logic copyright © 2003 & 2007, Ralph Hancock & John
+Hudson. This layout logic for Biblical Hebrew is open source software under the
+MIT License; see embedded license description for details.
