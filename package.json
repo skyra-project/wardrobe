@@ -15,8 +15,8 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^8.0.3",
-		"lint-staged": "^13.2.3",
-		"prettier": "^3.0.1"
+		"lint-staged": "^13.3.0",
+		"prettier": "^3.0.2"
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
@@ -44,5 +44,5 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.6.1"
+	"packageManager": "yarn@3.6.2"
 }
