@@ -6,15 +6,13 @@
 	"license": "CC BY-NC-SA 4.0",
 	"private": true,
 	"scripts": {
-		"format": "prettier --write \"*.md\" \"package.json\"",
-		"prepare": "husky install .github/husky"
+		"format": "prettier --write \"*.md\" \"package.json\""
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.8.0",
 		"@commitlint/config-conventional": "^17.8.0",
 		"@sapphire/prettier-config": "^2.0.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^8.0.3",
 		"lint-staged": "^13.3.0",
 		"prettier": "^3.0.3"
 	},
