@@ -1,7 +1,7 @@
 {
 	"name": "wardrobe",
 	"version": "2021.07.27",
-	"description": "A wardrobe of assets for  Skyra",
+	"description": "A wardrobe of assets for Skyra",
 	"author": "Skyra Project",
 	"license": "CC BY-NC-SA 4.0",
 	"private": true,
@@ -9,12 +9,12 @@
 		"format": "prettier --write \"*.md\" \"package.json\""
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.8.1",
-		"@commitlint/config-conventional": "^17.8.1",
+		"@commitlint/cli": "^18.4.1",
+		"@commitlint/config-conventional": "^18.4.0",
 		"@sapphire/prettier-config": "^2.0.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"lint-staged": "^13.3.0",
-		"prettier": "^3.0.3"
+		"lint-staged": "^15.1.0",
+		"prettier": "^3.1.0"
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
@@ -42,5 +42,5 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.6.4"
+	"packageManager": "yarn@4.0.2"
 }
