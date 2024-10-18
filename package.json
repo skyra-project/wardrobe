@@ -9,12 +9,12 @@
 		"format": "prettier --write \"*.md\" \"package.json\""
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^18.6.0",
-		"@commitlint/config-conventional": "^18.6.0",
+		"@commitlint/cli": "^18.6.1",
+		"@commitlint/config-conventional": "^18.6.3",
 		"@sapphire/prettier-config": "^2.0.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"lint-staged": "^15.2.1",
-		"prettier": "^3.2.5"
+		"lint-staged": "^15.2.10",
+		"prettier": "^3.3.3"
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
@@ -42,5 +42,5 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@4.1.0"
+	"packageManager": "yarn@4.5.1"
 }
